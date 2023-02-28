@@ -1,0 +1,38 @@
+.traitContainter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  #link {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 3px;
+    color: rgb(196, 196, 30);
+    text-align: center;
+    letter-spacing: 4px;
+   background-color:rgba(10, 94, 122, 0.685) ;
+    border: 2px solid rgba(24, 146, 187, 0.116);
+    border-radius: 25px;
+    height: 55%; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #link:hover {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 3px;
+    color: rgb(12, 12, 1);
+    text-align: center;
+    letter-spacing: 8px;
+   background-color:rgba(10, 94, 122, 0.685) ;
+    border: 2px solid rgb(243, 246, 247);
+    height: 55%; 
+  }
